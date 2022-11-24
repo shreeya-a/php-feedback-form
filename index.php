@@ -23,14 +23,6 @@
         }
      
         
-        // $conn = new mysqli("localhost:3307","root","","feedback_form");
-
-        // if($conn->connect_error){
-        //     die("$conn->connect_error");
-        // }
-
-        // echo "db connection success";
-        
        
         $sql = "INSERT INTO feedback_data 
         (`communication`,`understandability`,`nervous`,`recommended-material`,`knowledgeable`,`follow-syllabus`,`practical`,`audible`,`recommend`,`rating`,`suggestions`,`name`)
@@ -83,12 +75,12 @@
                 </label>
 
                 <label>
-                    <input type="radio" name="communication" value="slightly" class="input-radio" required>
+                    <input type="radio" name="communication" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
 
                 <label>
-                    <input type="radio" name="communication" value="moderately" class="input-radio" required>
+                    <input type="radio" name="communication" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
 
@@ -115,11 +107,11 @@
                     Nope, not at all!                
                 </label>
                 <label>
-                    <input type="radio" name="understandability" value="slightly" class="input-radio" required>
+                    <input type="radio" name="understandability" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="understandability" value="moderately" class="input-radio" required>
+                    <input type="radio" name="understandability" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -138,11 +130,11 @@
                     Nope, not at all!
                 </label>
                 <label>
-                    <input type="radio" name="nervous" value="slightly" class="input-radio" required>
+                    <input type="radio" name="nervous" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="nervous" value="moderately" class="input-radio" required>
+                    <input type="radio" name="nervous" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -161,11 +153,11 @@
                     Nope, not at all!
                 </label>
                 <label>
-                    <input type="radio" name="recommended-material" value="slightly" class="input-radio" required>
+                    <input type="radio" name="recommended-material" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="recommended-material" value="moderately" class="input-radio" required>
+                    <input type="radio" name="recommended-material" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -184,11 +176,11 @@
                     Nope, not at all!
                 </label>
                 <label>
-                    <input type="radio" name="knowledgeable" value="slightly" class="input-radio" required>
+                    <input type="radio" name="knowledgeable" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="knowledgeable" value="moderately" class="input-radio" required>
+                    <input type="radio" name="knowledgeable" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -207,11 +199,11 @@
                     Nope, not at all!
                 </label>
                 <label>
-                    <input type="radio" name="follow-syllabus" value="slightly" class="input-radio" required>
+                    <input type="radio" name="follow-syllabus" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="follow-syllabus" value="moderately" class="input-radio" required>
+                    <input type="radio" name="follow-syllabus" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -230,11 +222,11 @@
                     Nope, not at all!
                 </label>
                 <label>
-                    <input type="radio" name="practical" value="slightly" class="input-radio" required>
+                    <input type="radio" name="practical" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="practical" value="moderately" class="input-radio" required>
+                    <input type="radio" name="practical" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -253,11 +245,11 @@
                     Nope, not at all!
                 </label>
                 <label>
-                    <input type="radio" name="audible" value="slightly" class="input-radio" required>
+                    <input type="radio" name="audible" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="audible" value="moderately" class="input-radio" required>
+                    <input type="radio" name="audible" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -276,11 +268,11 @@
                     Nope, not at all!
                 </label>
                 <label>
-                    <input type="radio" name="recommend" value="slightly" class="input-radio" required>
+                    <input type="radio" name="recommend" value="Slightly" class="input-radio" required>
                     Slightly
                 </label>
                 <label>
-                    <input type="radio" name="recommend" value="moderately" class="input-radio" required>
+                    <input type="radio" name="recommend" value="Moderately" class="input-radio" required>
                     Moderately            
                 </label>
                 <label>
@@ -366,7 +358,11 @@
         <!-- button -->      
             <div class="form-group">
                 <button type="submit" id="submit" class="btn btn-light ">Submit</button>
+                <input type="reset" value="Clear Form"  ></input>
+
             </div>
+     
+        
      
 
         </form>
